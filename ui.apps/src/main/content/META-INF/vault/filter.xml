@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/seed">
+        <exclude pattern="/apps/seed/install"/>
+    </filter>
+    <filter root="/etc/clientlibs/seed"/>
+    <filter root="/etc/designs/seed"/>
+    <filter root="/etc/cloudservices/dynamictagmanagement/seed-dtm"/>
+    <filter root="/apps/social/console/components/hbs/sitepage" mode="update"/>
+
+</workspaceFilter>
