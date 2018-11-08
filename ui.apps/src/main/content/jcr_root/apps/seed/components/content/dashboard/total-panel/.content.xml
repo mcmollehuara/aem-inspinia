@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Total Panel"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.Dashboard"/>
+    componentGroup="seed.Containers"/>
