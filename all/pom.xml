@@ -24,7 +24,7 @@
     <parent>
         <groupId>micom</groupId>
         <artifactId>seed</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -92,7 +92,7 @@
                 <dependency>
                     <groupId>com.adobe.aem.sample</groupId>
                     <artifactId>seed.commons.content</artifactId>
-                    <version>1.0.0</version>
+                    <version>1.0.0-SNAPSHOT</version>
                     <type>content-package</type>
                     <scope>provided</scope>
                 </dependency>
@@ -135,19 +135,19 @@
     		<dependency>
     			<groupId>micom</groupId>
     			<artifactId>seed.core</artifactId>
-    			<version>1.0.0</version>
+    			<version>1.0.0-SNAPSHOT</version>
     			<type>bundle</type>
     		</dependency>
     		<dependency>
     			<groupId>micom</groupId>
     			<artifactId>seed.ui.apps</artifactId>
-    			<version>1.0.0</version>
+    			<version>1.0.0-SNAPSHOT</version>
     			<type>content-package</type>
     		</dependency>
     		<dependency>
     			<groupId>micom</groupId>
     			<artifactId>seed.ui.content</artifactId>
-    			<version>1.0.0</version>
+    			<version>1.0.0-SNAPSHOT</version>
     			<type>content-package</type>
     		</dependency>
     	</dependencies>
