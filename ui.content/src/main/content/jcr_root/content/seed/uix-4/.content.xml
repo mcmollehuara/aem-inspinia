@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-04T17:29:32.197-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="seed-4"
+        sling:resourceType="seed/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <steps
+                    jcr:created="{Date}2017-07-04T17:14:20.186-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-04T17:14:48.705-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/ui-elements/steps"
+                    data="\[&quot;Miguel&quot;, &quot;Luana&quot;, &quot;Valeria&quot;, &quot;Mikela&quot;,]"/>
+                <steps_280023329
+                    jcr:created="{Date}2017-07-04T17:14:58.066-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-04T17:29:32.195-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/ui-elements/steps"
+                    data="\[&quot;Miguel&quot;, &quot;Luana&quot;, &quot;Valeria&quot;, &quot;Mikela&quot;, &quot;Lourdes&quot;]"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

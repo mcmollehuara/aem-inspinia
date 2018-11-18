@@ -5,8 +5,6 @@
 	<filter root="/etc/community/seed"/>
 
 	<filter root="/content/campaigns/seed"/>
-	<filter root="/content/catalogs/seed/c1/website-catalog"/>
-	<filter root="/content/catalogs/seed/c1/website-template-pages"/>
 	<filter root="/content/dam/collections/w/seed" mode="merge"/>
 	<filter root="/content/seed/community" mode="merge"/>
 	<filter root="/content/seed">

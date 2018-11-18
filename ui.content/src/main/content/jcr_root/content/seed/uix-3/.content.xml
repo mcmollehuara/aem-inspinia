@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-04T17:12:57.012-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="seed-3"
+        sling:resourceType="seed/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <boxes
+                    jcr:created="{Date}2017-07-04T16:59:14.790-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-04T16:59:33.005-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="on"
+                    collapse="on"
+                    configure="on"
+                    leftText="Flexible content by UIX"
+                    rightText="Verizon"
+                    subtitle="Sub-heading"
+                    title="Expand your Business.">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <par_2050164482
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <input_copy
+                                jcr:created="{Date}2017-07-04T16:59:50.985-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:01:30.232-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/forms/input"
+                                emptyText="add your name"
+                                label="Name"
+                                type="text">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="3"/>
+                                </cq:responsive>
+                            </input_copy>
+                            <input_copy_135819254
+                                jcr:created="{Date}2017-07-04T16:59:50.985-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:01:07.305-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/forms/input"
+                                emptyText="empty"
+                                label="Email"
+                                type="email"
+                                value="mcmollehbuara@gmail.com">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="3"/>
+                                </cq:responsive>
+                            </input_copy_135819254>
+                            <input_copy_102040849
+                                jcr:created="{Date}2017-07-04T16:59:50.985-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:02:39.142-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/forms/input"
+                                emptyText="Add your phone number"
+                                label="Telephone"
+                                type="tel">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="3"/>
+                                </cq:responsive>
+                            </input_copy_102040849>
+                            <input
+                                jcr:created="{Date}2017-07-04T16:59:50.985-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:03:38.912-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/forms/input"
+                                disabled="on"
+                                emptyText="Add your url"
+                                label="Site URL"
+                                type="url">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="3"/>
+                                </cq:responsive>
+                            </input>
+                            <input_copy_110042983
+                                jcr:created="{Date}2017-07-04T16:59:50.985-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:01:55.742-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/forms/input"
+                                label="Date"
+                                type="date"
+                                value="mcmollehbuara@gmail.com">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="3"/>
+                                </cq:responsive>
+                            </input_copy_110042983>
+                            <button
+                                jcr:created="{Date}2017-07-04T17:04:13.380-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:10:44.122-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-danger"
+                                icon="fa-chevron-right"
+                                label="Accept"
+                                size="btn-xs"
+                                type="btn-default"/>
+                            <tablestatic_1214017133
+                                jcr:created="{Date}2017-07-04T17:09:15.396-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-04T17:09:22.641-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/tables/tablestatic"
+                                data="\{&#xd;&#xa;             &quot;header&quot;: [&quot;Name&quot;, &quot;Last Name&quot;, &quot;Nick Name&quot;, &quot;Email&quot;],&#xd;&#xa;             &quot;body&quot;: [&#xd;&#xa;                 [&quot;Mikela&quot;, &quot;Condori&quot;, &quot;Condorito&quot;, &quot;mcondori@one.verizon.com&quot;],&#xd;&#xa;                 [&quot;Luana&quot;, &quot;Condori&quot;, &quot;Condorito&quot;, &quot;lcondori@one.verizon.com&quot;],&#xd;&#xa;                 [&quot;Valeria&quot;, &quot;Condori&quot;, &quot;Condorito&quot;, &quot;vcondori@one.verizon.com&quot;],&#xd;&#xa;                 [&quot;Sheryl&quot;, &quot;Condori&quot;, &quot;Condorito&quot;, &quot;scondori@one.verizon.com&quot;]&#xd;&#xa;             ]&#xd;&#xa;        }&#xd;&#xa;"
+                                type="table-hover"/>
+                        </par_2050164482>
+                        <autocomplete
+                            jcr:created="{Date}2017-07-04T17:11:30.780-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-04T17:12:57.005-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/forms/autocomplete"
+                            data="\[&quot;Miguel&quot;, &quot;Luana&quot;, &quot;Valeria&quot;, &quot;Mikela&quot;, &quot;Lourdes&quot;]"
+                            label="Read me">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </autocomplete>
+                        <choosen
+                            jcr:created="{Date}2017-07-04T17:12:24.325-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-04T17:12:38.866-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/plugins/choosen"
+                            data="\[&quot;Miguel&quot;, &quot;Luana&quot;, &quot;Valeria&quot;, &quot;Mikela&quot;, &quot;Lourdes&quot;]"
+                            label="Label"
+                            type="multiple">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </choosen>
+                    </par>
+                </boxes>
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

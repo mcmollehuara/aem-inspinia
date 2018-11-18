@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-03T12:40:20.452-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Boxes"
+        sling:resourceType="seed/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <boxes
+                    jcr:created="{Date}2017-07-03T12:38:36.951-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-03T12:39:06.919-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="on"
+                    collapse="on"
+                    configure="on"
+                    leftText="Flexible content by UIX"
+                    subtitle="This is custom panel"
+                    title="Basic UIX Panel ">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <title
+                            jcr:created="{Date}2017-07-03T12:39:14.431-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:39:46.358-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/title"
+                            color="text-navy"
+                            subtitle="Custom your work"
+                            title="Expand your Business"
+                            type="h2"/>
+                        <text
+                            jcr:created="{Date}2017-07-03T12:39:54.924-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:40:20.451-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>&lt;b>Lorem ipsum dolor&lt;/b>&amp;nbsp;&lt;g class=&quot;gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;9&quot;>Aenean&lt;/g> &lt;g class=&quot;gr_ gr_10 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;10&quot;>commodo&lt;/g> ligula &lt;g class=&quot;gr_ gr_11 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;11&quot;>eget&lt;/g> &lt;g class=&quot;gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling&quot; data-gr-id=&quot;8&quot;>dolor&lt;/g>. &lt;g class=&quot;gr_ gr_12 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;12&quot;>Aenean&lt;/g> &lt;g class=&quot;gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;13&quot;>massa&lt;/g>. Cum &lt;g class=&quot;gr_ gr_14 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;14&quot;>sociis&lt;/g> &lt;g class=&quot;gr_ gr_15 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;15&quot;>natoque&lt;/g> &lt;g class=&quot;gr_ gr_16 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;16&quot;>penatibus&lt;/g> et &lt;g class=&quot;gr_ gr_17 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;17&quot;>magnis&lt;/g> dis parturient montes, &lt;g class=&quot;gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;18&quot;>nascetur&lt;/g> &lt;g class=&quot;gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;19&quot;>ridiculus&lt;/g> mus. &lt;g class=&quot;gr_ gr_21 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;21&quot;>Donec&lt;/g> &lt;g class=&quot;gr_ gr_22 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;22&quot;>quam&lt;/g> &lt;g class=&quot;gr_ gr_23 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;23&quot;>felis&lt;/g>, &lt;g class=&quot;gr_ gr_24 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;24&quot;>ultricies&lt;/g> &lt;g class=&quot;gr_ gr_25 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;25&quot;>nec&lt;/g>, &lt;g class=&quot;gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;26&quot;>pellentesque&lt;/g> &lt;g class=&quot;gr_ gr_27 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;27&quot;>eu&lt;/g>, &lt;g class=&quot;gr_ gr_28 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;28&quot;>pretium&lt;/g> &lt;g class=&quot;gr_ gr_29 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;29&quot;>quis&lt;/g>, &lt;g class=&quot;gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling&quot; data-gr-id=&quot;20&quot;>sem&lt;/g>. Nulla &lt;g class=&quot;gr_ gr_30 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;30&quot;>consequat&lt;/g> &lt;g class=&quot;gr_ gr_31 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;31&quot;>massa&lt;/g> &lt;g class=&quot;gr_ gr_32 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;32&quot;>quis&lt;/g> &lt;g class=&quot;gr_ gr_33 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace&quot; data-gr-id=&quot;33&quot;>enim&lt;/g>.&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                </boxes>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

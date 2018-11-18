@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-03T12:37:31.847-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Buttons"
+        sling:resourceType="seed/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+           
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <boxes_copy
+                    jcr:created="{Date}2017-07-03T11:38:08.647-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-03T12:36:44.400-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    leftText="Flexible content by UIX"
+                    title="Colors buttons">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2017-07-03T11:38:57.559-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T11:39:01.699-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>Use any of the available button classes to quickly create a styled button.&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <button_copy_copy
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:02:17.216-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-white"
+                            label="Default">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy>
+                        <button_copy_copy_837376201
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T11:41:07.509-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-primary"
+                            label="Primary">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy_837376201>
+                        <button_copy_copy_516750670
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T11:41:12.995-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-success"
+                            label="Success">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy_516750670>
+                        <button_copy_copy_556360503
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T11:41:37.791-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-info"
+                            label="Info">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy_556360503>
+                        <button_copy_copy_372131180
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:01:19.948-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-warning"
+                            label="Warning">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy_372131180>
+                        <button_copy_copy_1335100714
+                            jcr:created="{Date}2017-07-03T11:39:08.851-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:01:38.587-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            color="btn-danger"
+                            label="Danger">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    width="3"/>
+                            </cq:responsive>
+                        </button_copy_copy_1335100714>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_copy>
+                <boxes_copy_404454006
+                    jcr:created="{Date}2017-07-03T11:38:08.647-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-03T12:36:51.602-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="on"
+                    collapse="on"
+                    configure="on"
+                    leftText="Flexible content by UIX"
+                    title="Diferent size">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2017-07-03T12:05:06.752-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:05:35.783-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>If You want larger or smaller buttons You can add&amp;nbsp;&lt;b>.btn-lg&lt;/b>,&amp;nbsp;&lt;b>.btn-sm&lt;/b>, or&amp;nbsp;&lt;b>.btn-xs&lt;/b>&amp;nbsp;class.&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <title
+                            jcr:created="{Date}2017-07-03T12:05:51.806-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:07:48.988-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/title"
+                            color="text-primary"
+                            subtitle="."
+                            title="Button Sizes"
+                            type="h3"/>
+                        <button_copy
+                            jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:08:24.724-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            label="Large button"
+                            size="btn-lg"/>
+                        <button_copy_1954780513
+                            jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:08:56.792-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            label="Default button"/>
+                        <button_copy_913252844
+                            jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:09:03.548-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            label="Large button"
+                            size="btn-sm"/>
+                        <button
+                            jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T12:09:12.134-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/ui-elements/button"
+                            label="Large button"
+                            size="btn-xs"/>
+                    </par>
+                </boxes_copy_404454006>
+                <par_117592479
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <boxes
+                        jcr:created="{Date}2017-07-03T11:38:08.647-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-07-03T12:36:57.886-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/containers/boxes"
+                        close="on"
+                        collapse="on"
+                        configure="on"
+                        leftText="Flexible content by UIX"
+                        title="Outline and Block Buttons">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <par
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <text
+                                jcr:created="{Date}2017-07-03T12:05:06.752-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:12:49.227-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/text"
+                                text="&lt;p>Create block level buttons or outline buttons, by adding&amp;nbsp;&lt;b>.btn-block&lt;/b>&amp;nbsp;or&amp;nbsp;&lt;b>.btn-outline.&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                            <title
+                                jcr:created="{Date}2017-07-03T12:05:51.806-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:12:58.666-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/title"
+                                color="text-primary"
+                                subtitle="."
+                                title="Outline buttons"
+                                type="h3"/>
+                            <button_copy_copy
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:14:20.662-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-primary"
+                                label="Default"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy_copy>
+                            <button_copy_copy_219
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:15:13.948-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-primary"
+                                label="Primary"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy_copy_219>
+                            <button_copy_copy_1740245590 jcr:primaryType="nt:unstructured"/>
+                            <button_copy_copy_1178488619
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:15:26.940-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-success"
+                                label="Success"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy_copy_1178488619>
+                            <button_copy_copy_1322091696
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:16:35.421-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-info"
+                                label="Info"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy_copy_1322091696>
+                            <button_copy_copy_1389397529
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:16:50.881-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-warning"
+                                label="Warning"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        behavior="newline"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy_copy_1389397529>
+                            <button_copy
+                                jcr:created="{Date}2017-07-03T12:07:59.905-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:17:00.665-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-danger"
+                                label="Danger"
+                                type="btn-outline">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="2"/>
+                                </cq:responsive>
+                            </button_copy>
+                            <button
+                                jcr:created="{Date}2017-07-03T12:17:10.425-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:17:21.664-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                label="Link"
+                                type="btn-link"/>
+                        </par>
+                    </boxes>
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </par_117592479>
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <boxes
+                        jcr:created="{Date}2017-07-03T12:21:29.341-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-07-03T12:37:15.966-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/containers/boxes"
+                        close="on"
+                        collapse="on"
+                        configure="on"
+                        leftText="Flexible content by UIX"
+                        title="Icon Buttons">
+                        <par jcr:primaryType="nt:unstructured">
+                            <text
+                                jcr:created="{Date}2017-07-03T12:27:59.672-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:28:04.308-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/text"
+                                text="&lt;p>To buttons with any color or any size you can add &lt;g class=&quot;gr_ gr_3 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep&quot; data-gr-id=&quot;3&quot;>extra&lt;/g> icon on the left or the right side.&lt;br>&#xa;&lt;/p>&#xa;"
+                                textIsRich="true"/>
+                            <title
+                                jcr:created="{Date}2017-07-03T12:28:12.872-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:29:24.010-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/title"
+                                color="text-primary"
+                                subtitle="."
+                                title="Commom Icon Buttons"
+                                type="h3"/>
+                            <button_copy
+                                jcr:created="{Date}2017-07-03T12:22:14.611-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:31:49.720-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-primary"
+                                icon="fa-chevron-right"
+                                label="Click me">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="1"/>
+                                </cq:responsive>
+                            </button_copy>
+                            <button_copy_15158343
+                                jcr:created="{Date}2017-07-03T12:22:14.611-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:33:37.655-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-success"
+                                icon="fa-upload"
+                                label="Upload">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="1"/>
+                                </cq:responsive>
+                            </button_copy_15158343>
+                            <button_copy_57027344
+                                jcr:created="{Date}2017-07-03T12:22:14.611-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:34:11.605-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-info"
+                                icon="fa-paste"
+                                label="Edition">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="1"/>
+                                </cq:responsive>
+                            </button_copy_57027344>
+                            <button
+                                jcr:created="{Date}2017-07-03T12:22:14.611-05:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2017-07-03T12:35:39.100-05:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="seed/components/content/ui-elements/button"
+                                color="btn-white"
+                                icon="fa-map-marker"
+                                label="Map">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
+                                    <default
+                                        jcr:primaryType="nt:unstructured"
+                                        width="1"/>
+                                </cq:responsive>
+                            </button>
+                        </par>
+                    </boxes>
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                    <boxes_1486949483_cop
+                        jcr:created="{Date}2017-07-03T12:29:47.157-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-07-03T12:37:27.057-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/containers/boxes"
+                        collapse="on"
+                        configure="on"
+                        leftText="Flexible content by UIX"
+                        title="Circle Icon Buttons">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                    </boxes_1486949483_cop>
+                    <boxes_1486949483
+                        jcr:created="{Date}2017-07-03T12:29:47.157-05:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2017-07-03T12:37:31.843-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/containers/boxes"
+                        collapse="on"
+                        configure="on"
+                        leftText="Flexible content by UIX"
+                        title="Rounded Buttons">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                    </boxes_1486949483>
+                </par>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

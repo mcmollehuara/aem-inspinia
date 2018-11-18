@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-03T13:29:26.153-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Advanced Form"
+        jcr:uuid="93497cc3-7ec8-4255-829d-bd0ea8075b7a"
+        sling:resourceType="seed/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <boxes_copy
+                    jcr:created="{Date}2017-07-03T13:17:18.011-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-03T13:18:07.274-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="on"
+                    collapse="on"
+                    configure="on"
+                    leftText="Flexible content by UIX"
+                    subtitle="- Bootstrap Typehead"
+                    title="Autocomplete ">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2017-07-03T13:26:07.732-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T13:26:16.958-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>The Typeahead plugin from Twitter's Bootstrap 2 ready to use with Bootstrap 3 and Bootstrap 4. Full documentation can be found:&amp;nbsp;&lt;a href=&quot;https://github.com/bassjobsen/Bootstrap-3-Typeahead&quot;>https://github.com/bassjobsen/Bootstrap-3-Typeahead&lt;/a>&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <autocomplete
+                            jcr:created="{Date}2017-07-03T13:23:33.113-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T13:26:02.182-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/forms/autocomplete"
+                            data="\[&quot;Sheryl&quot;, &quot;Valeria&quot;, &quot;Luana, &quot;Mikela&quot;]"
+                            emptyText="Add your text"
+                            label="Basic example via data attributes"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_copy>
+                <boxes
+                    jcr:created="{Date}2017-07-03T13:17:18.011-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2017-07-03T13:28:31.299-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    collapse="on"
+                    configure="on"
+                    leftText="Flexible content by UIX"
+                    subtitle="http://harvesthq.github.io/chosen/"
+                    title="Chosen select ">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2017-07-03T13:26:07.732-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T13:26:16.958-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>The Typeahead plugin from Twitter's Bootstrap 2 ready to use with Bootstrap 3 and Bootstrap 4. Full documentation can be found:&amp;nbsp;&lt;a href=&quot;https://github.com/bassjobsen/Bootstrap-3-Typeahead&quot;>https://github.com/bassjobsen/Bootstrap-3-Typeahead&lt;/a>&lt;br>&#xa;&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                        <choosen
+                            jcr:created="{Date}2017-07-03T13:28:42.354-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2017-07-03T13:29:26.151-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/plugins/choosen"
+                            data="\[&quot;Mikela&quot;, &quot;Luana&quot;, &quot;Valeria&quot;, &quot;Sheryl&quot;]"
+                            label="Basic example"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
