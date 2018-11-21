@@ -1,4 +1,5 @@
 <sly data-sly-use.title="title.js">
+		<div data-sly-test="${wcmmode.edit && properties.title==''}">Title</div>
 <h1 data-sly-test="${title.type == 'h1'}"
 	class="${title.settings} ${title.typeValue}">
 	${properties.title || 'Title'} <small>${properties.subtitle}</small>

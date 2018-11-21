@@ -1,5 +1,8 @@
 "use strict";
 
+/**
+ * Text foundation component JS backing script
+ */
 use(["/libs/wcm/foundation/components/utils/AuthoringUtils.js"], function (AuthoringUtils) {
 
     var CONST = {
@@ -40,20 +43,19 @@ use(["/libs/wcm/foundation/components/utils/AuthoringUtils.js"], function (Autho
     // Adding the constants to the exposed API
     text.CONST = CONST;
 
-
-    //TODO: Factorization
+    //Additional configurations
     var textColor = '';
     var backgroundColor = '';
     var alignment = '';
     var padding = '';
-    var _padding = '';
-    var _paddingType = '';
+    var _padding;
+    var _paddingType;
     var margin = '';
-    var _margin = '';
-    var _marginType = '';
+    var _margin;
+    var _marginType;
     var border = '';
-    var _border = '';
-    var _borderType = ''
+    var _border;
+    var _borderType;
 
     var settings = '';
 
@@ -63,28 +65,21 @@ use(["/libs/wcm/foundation/components/utils/AuthoringUtils.js"], function (Autho
 
     _padding = properties.get('padding', '');
     _paddingType = properties.get('paddingType', '');
-
-    if (_padding && _paddingType) {
-        padding = _paddingType + '-' + _padding;
-    }
-
-
     _margin = properties.get('margin', '');
     _marginType = properties.get('marginType', '');
-
-    if (_margin && _marginType) {
-        margin = _marginType + '-' + _margin;
-    }
-
     _border = properties.get('border', '');
     _borderType = properties.get('borderType', '');
 
-    if (_border && _borderType) {
-        border = _borderType + '-' + _border;
-    }
+    padding = (_padding != '' && _paddingType != '') ? _paddingType + '-' + _padding : '';
+    margin = (_margin != '' && _marginType != '') ? _marginType + '-' + _margin : '';
+    border = (_border != '' && _borderType != '') ? _borderType + '-' + _border : '';
 
-    settings = textColor + ' ' + backgroundColor + ' ' + alignment + ' ' + padding + ' ' + margin + ' ' + border;
-    ///////////////////////////////////////
+    settings = settings + (textColor != '' ? textColor + ' ' : '');
+    settings = settings + (backgroundColor != '' ? backgroundColor + ' ' : '');
+    settings = settings + (alignment != '' ? alignment + ' ' : '');
+    settings = settings + (padding != '' ? padding + ' ' : '');
+    settings = settings + (margin != '' ? margin + ' ' : '');
+    settings = settings + (border != '' ? border + ' ' : '');
 
     text.settings = settings;
     return text;

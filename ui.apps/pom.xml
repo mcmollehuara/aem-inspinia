@@ -99,11 +99,7 @@
 					<failOnError>true</failOnError>
 					<group>micom</group>
 					<embeddeds>
-						<embedded>
-							<groupId>micom</groupId>
-							<artifactId>seed.core</artifactId>
-							<target>/apps/seed/install</target>
-						</embedded>
+						
 						<embedded>
 							<groupId>micom</groupId>
 							<artifactId>seed.core.soat</artifactId>
@@ -205,11 +201,7 @@
 			<version>2.11.0</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>micom</groupId>
-			<artifactId>seed.core</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>micom</groupId>
 			<artifactId>seed.core.soat</artifactId>

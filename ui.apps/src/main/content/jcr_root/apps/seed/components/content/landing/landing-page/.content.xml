@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Landing Page"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.Landing"/>
+    componentGroup="seed.landing"/>

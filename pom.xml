@@ -8,7 +8,6 @@
     <description>micom.seed</description>
     
     <modules>
-        <module>core</module>
         <module>core.soat</module>
         <module>ui.apps</module>
         <module>ui.content</module>

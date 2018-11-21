@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Hero Image"
     sling:resourceSuperType="wcm/foundation/components/image"
-    componentGroup="seed.Landing"/>
+    componentGroup="seed.landing"/>

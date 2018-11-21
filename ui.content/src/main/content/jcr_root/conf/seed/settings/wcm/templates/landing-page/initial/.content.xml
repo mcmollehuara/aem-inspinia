@@ -4,7 +4,7 @@
     <jcr:content
         cq:template="/conf/seed/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="seed/components/structure/page">
+        sling:resourceType="seed/components/structure/landing-page/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

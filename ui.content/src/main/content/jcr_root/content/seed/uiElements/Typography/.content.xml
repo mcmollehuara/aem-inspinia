@@ -2,16 +2,15 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-07-03T11:24:17.355-05:00"
+        cq:lastModified="{Date}2018-11-20T14:07:03.350-05:00"
         cq:lastModifiedBy="admin"
-        cq:template="/conf/seed/settings/wcm/templates/landing-page"
+        cq:template="/conf/seed/settings/wcm/templates/top-navigation-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Typography"
-        sling:resourceType="seed/components/structure/page">
+        jcr:title="typography"
+        sling:resourceType="seed/components/structure/top-navigation-page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            
             <responsivegrid
                 jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
                 jcr:createdBy="admin"
@@ -117,104 +116,6 @@
                             width="6"/>
                     </cq:responsive>
                 </boxes_copy>
-                <boxes
-                    jcr:created="{Date}2017-07-03T11:12:51.023-05:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2017-07-03T11:13:43.403-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="seed/components/content/containers/boxes"
-                    close="on"
-                    collapse="on"
-                    configure="on"
-                    title="Headings">
-                    <par
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <title_copy
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:05.436-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-navy"
-                            subtitle="Sub-heading"
-                            title="Heading 1"
-                            type="h1"/>
-                        <title_copy_78981937
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:10.718-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-success"
-                            subtitle="Sub-heading"
-                            title="Heading 2"
-                            type="h2"/>
-                        <title_copy_702031538
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:17.099-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-info"
-                            subtitle="Sub-heading"
-                            title="Heading 3"
-                            type="h3"/>
-                        <title_copy_1821210904
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:30.906-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-warning"
-                            subtitle="Sub-heading"
-                            title="Heading 3"
-                            type="h3"/>
-                        <title_copy_172939319
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:39.299-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-danger"
-                            subtitle="Sub-heading"
-                            title="Heading 4"
-                            type="h4"/>
-                        <title_copy_2119929184
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:20:45.211-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-muted"
-                            subtitle="Sub-heading"
-                            title="Heading 5"
-                            type="h5"/>
-                        <title
-                            jcr:created="{Date}2017-07-03T11:13:49.726-05:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:21:03.150-05:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="seed/components/content/title"
-                            color="text-primary"
-                            subtitle="Sub-heading"
-                            title="Heading 6"
-                            type="h6"/>
-                    </par>
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            width="6"/>
-                    </cq:responsive>
-                </boxes>
                 <boxes_1724175284
                     jcr:created="{Date}2017-07-03T11:21:53.226-05:00"
                     jcr:createdBy="admin"
@@ -232,11 +133,11 @@
                         <text
                             jcr:created="{Date}2017-07-03T11:22:27.352-05:00"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2017-07-03T11:24:17.353-05:00"
+                            jcr:lastModified="{Date}2018-11-20T13:34:33.034-05:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="seed/components/content/text"
-                            text="&lt;p>&lt;a href=&quot;/content/we-retail/community/en/trending.html&quot;>Lorem ipsum&amp;nbsp;eget&lt;/a> urna mollis&amp;nbsp;ornare vel eu leo.&amp;nbsp;&lt;i>&lt;b>Cum sociisnatoque penatibus&lt;/b>&lt;/i>&amp;nbsp;et magnis dis parturient montes,&amp;nbsp;codenascetur ridiculus mus. &lt;i>Nullam &lt;/i>id dolor id nibh ultricies vehicula ut id elit. Sed euismod aliquet sapien consequat tincidunt.&lt;/p>&#xa;&lt;p>Vivamus sagittis lacus vel augue laoreet&amp;nbsp;rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, &lt;u>eget lacinia odio sem nec elit&lt;/u>. Donec sed odio dui. Sed euismod aliquet sapien consequat tincidunt.&lt;/p>&#xa;&lt;p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual.&lt;/p>&#xa;"
+                            text="&lt;p>&lt;a href=&quot;/content/we-retail/community/en/trending.html&quot;>Lorem ipsum&amp;nbsp;eget&lt;/a> urna mollis&amp;nbsp;ornare vel eu leo.&amp;nbsp;&lt;i>&lt;b>Cum sociisnatoque penatibus&lt;/b>&lt;/i>&amp;nbsp;et magnis dis parturient montes,&amp;nbsp;codenascetur ridiculus mus. &lt;i>Nullam &lt;/i>id dolor id nibh ultricies vehicula ut id elit. Sed euismod aliquet sapien consequat tincidunt.&lt;/p>&#xa;&lt;p>Vivamus sagittis lacus vel augue laoreet&amp;nbsp;rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, &lt;u>eget lacinia odio sem nec elit&lt;/u>. Donec sed odio dui. Sed euismod aliquet sapien consequat tincidunt.&lt;/p>&#xa;&lt;p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual.&lt;/p>&#xa;&lt;p>Vivamus sagittis lacus vel augue laoreet&amp;nbsp;rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,&amp;nbsp;eget lacinia odio sem nec elit. Donec sed odio dui. Sed euismod aliquet sapien consequat tincidunt.But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual.&lt;/p>&#xa;"
                             textIsRich="true"/>
                     </par>
                     <cq:responsive jcr:primaryType="nt:unstructured">
@@ -245,6 +146,297 @@
                             width="6"/>
                     </cq:responsive>
                 </boxes_1724175284>
+                <boxes_copy_1005619363
+                    jcr:created="{Date}2018-11-20T13:36:11.127-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:36:30.970-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Unstyled list">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:36:39.345-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:37:59.537-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;ul class=&quot;unstyled&quot;>&#xa;&lt;li>But I must explain&lt;/li>&#xa;&lt;li>To you how all this mistaken&lt;/li>&#xa;&lt;li>Idea of denouncing pleasure&lt;/li>&#xa;&lt;li>Great explorer of the truth&lt;/li>&#xa;&lt;li>To take a trivial example&lt;ul>&#xa;&lt;li>Or one who avoids a pain&lt;/li>&#xa;&lt;li>Indignation and dislike men&lt;/li>&#xa;&lt;li>Nor again is there anyone&lt;/li>&#xa;&lt;li>But who has any right&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>That they cannot foresee&lt;/li>&#xa;&lt;li>Who avoids a pain that produceg&lt;/li>&#xa;&lt;li>Consequences that are extremely&lt;/li>&#xa;&lt;/ul>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_copy_1005619363>
+                <boxes_copy_1885428848
+                    jcr:created="{Date}2018-11-20T13:36:11.127-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:38:37.333-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Unordered list">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:36:39.345-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:39:05.338-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;ul>&#xa;&lt;li>But I must explain&lt;/li>&#xa;&lt;li>To you how all this mistaken&lt;/li>&#xa;&lt;li>Idea of denouncing pleasure&lt;/li>&#xa;&lt;li>Great explorer of the truth&lt;/li>&#xa;&lt;li>To take a trivial example&lt;ul>&#xa;&lt;li>Or one who avoids a pain&lt;/li>&#xa;&lt;li>Indignation and dislike men&lt;/li>&#xa;&lt;li>Nor again is there anyone&lt;/li>&#xa;&lt;li>But who has any right&lt;/li>&#xa;&lt;/ul>&#xa;&lt;/li>&#xa;&lt;li>That they cannot foresee&lt;/li>&#xa;&lt;li>Who avoids a pain that produceg&lt;/li>&#xa;&lt;li>Consequences that are extremely&lt;/li>&#xa;&lt;/ul>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_copy_1885428848>
+                <boxes_copy_2085393879
+                    jcr:created="{Date}2018-11-20T13:36:11.127-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:39:51.730-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Ordered list">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:36:39.345-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:40:20.821-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;ol>&#xd;&#xa;&lt;li>But I must explain&lt;/li>&#xd;&#xa;&lt;li>To you how all this mistaken&lt;/li>&#xd;&#xa;&lt;li>Idea of denouncing pleasure&lt;/li>&#xd;&#xa;&lt;li>Great explorer of the truth&lt;/li>&#xd;&#xa;&lt;li>To take a trivial example&lt;ol>&#xd;&#xa;&lt;li>Or one who avoids a pain&lt;/li>&#xd;&#xa;&lt;li>Indignation and dislike men&lt;/li>&#xd;&#xa;&lt;li>Nor again is there anyone&lt;/li>&#xd;&#xa;&lt;li>But who has any right&lt;/li>&#xd;&#xa;&lt;/ol>&#xd;&#xa;&lt;/li>&#xd;&#xa;&lt;li>That they cannot foresee&lt;/li>&#xd;&#xa;&lt;li>Who avoids a pain that produceg&lt;/li>&#xd;&#xa;&lt;li>Consequences that are extremely&lt;/li>&#xd;&#xa;&lt;/ol>&#xd;&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_copy_2085393879>
+                <boxes_copy_2084769716
+                    jcr:created="{Date}2018-11-20T13:36:11.127-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:40:57.201-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Emphasis Classes">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text_copy
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:52:04.912-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-muted"
+                            textIsRich="true"/>
+                        <text_copy_516558425
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:53:43.459-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-primary"
+                            textIsRich="true"/>
+                        <text_copy_827670721
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:53:55.431-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-success"
+                            textIsRich="true"/>
+                        <text_copy_1080276311
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:54:04.266-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-info"
+                            textIsRich="true"/>
+                        <text_copy_546529086
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:54:15.038-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-warning"
+                            textIsRich="true"/>
+                        <text
+                            jcr:created="{Date}2018-11-20T13:51:38.617-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:54:21.224-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p>This is an example of muted text.&lt;/p>&#xd;&#xa;"
+                            textColor="text-danger"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </boxes_copy_2084769716>
+                <boxes
+                    jcr:created="{Date}2018-11-20T13:36:11.127-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:54:44.943-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Blockquotes">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:55:07.943-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T14:05:38.563-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;blockquote>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p>&#xa;&lt;small>&lt;b>Author name&lt;/b> in &lt;cite>Book name&lt;/cite>&lt;/small>&lt;/blockquote>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="6"/>
+                    </cq:responsive>
+                </boxes>
+                <boxes_114048380_copy
+                    jcr:created="{Date}2018-11-20T13:56:58.575-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:57:15.472-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Alignment">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:57:29.768-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:58:52.056-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p class=&quot;text-left&quot;>Left aligned text.&lt;/p>&#xa;&lt;p class=&quot;text-center&quot;>Center aligned text.&lt;/p>&#xa;&lt;p class=&quot;text-right&quot;>Right aligned text.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_114048380_copy>
+                <boxes_114048380_copy_1056443192
+                    jcr:created="{Date}2018-11-20T13:56:58.575-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T14:06:21.196-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Address">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:57:29.768-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T14:07:03.342-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;address>&lt;b>Twitter, Inc.&lt;/b>&lt;br>&#xa;795 Folsom Ave, Suite 600&lt;br>&#xa;San Francisco, CA 94107&lt;br>&#xa;&lt;abbr title=&quot;Phone&quot;>P:&lt;/abbr> (123) 456-7890&lt;/address>&#xa;&lt;address>&lt;b>Full Name&lt;/b>&lt;br>&#xa;&lt;a href=&quot;mailto:#&quot;>first.last@example.com&lt;/a>&lt;/address>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_114048380_copy_1056443192>
+                <boxes_114048380
+                    jcr:created="{Date}2018-11-20T13:56:58.575-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-11-20T13:57:15.472-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/containers/boxes"
+                    close="true"
+                    collapse="true"
+                    configure="true"
+                    title="Alignment">
+                    <par
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <text
+                            jcr:created="{Date}2018-11-20T13:57:29.768-05:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2018-11-20T13:58:52.056-05:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="seed/components/content/text"
+                            text="&lt;p class=&quot;text-left&quot;>Left aligned text.&lt;/p>&#xa;&lt;p class=&quot;text-center&quot;>Center aligned text.&lt;/p>&#xa;&lt;p class=&quot;text-right&quot;>Right aligned text.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </par>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="4"/>
+                    </cq:responsive>
+                </boxes_114048380>
             </responsivegrid>
         </root>
     </jcr:content>

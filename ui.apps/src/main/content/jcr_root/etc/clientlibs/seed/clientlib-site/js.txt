@@ -1,0 +1,16 @@
+js/jquery-3.1.1.min.js
+js/bootstrap.min.js
+js/plugins/metisMenu/jquery.metisMenu.js
+js/plugins/slimscroll/jquery.slimscroll.min.js
+
+js/inspinia.js
+js/plugins/pace/pace.min.js
+
+js/plugins/flot/jquery.flot.js
+js/plugins/flot/jquery.flot.tooltip.min.js
+js/plugins/flot/jquery.flot.resize.js
+js/plugins/chartJs/Chart.min.js
+js/plugins/peity/jquery.peity.min.js
+js/plugins/flot/jquery.flot.js
+js/demo/peity-demo.js
+script.js
