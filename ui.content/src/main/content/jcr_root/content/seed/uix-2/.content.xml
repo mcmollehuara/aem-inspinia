@@ -7,7 +7,7 @@
         cq:template="/conf/seed/settings/wcm/templates/top-navigation-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="seed-2"
-        sling:resourceType="seed/components/structure/top-navigation-page">
+        sling:resourceType="seed/components/structure/top-navigation-page/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

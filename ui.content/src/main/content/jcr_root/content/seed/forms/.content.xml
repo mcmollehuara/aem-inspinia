@@ -2,11 +2,11 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2017-07-03T11:33:23.007-05:00"
+        cq:lastModified="{Date}2017-07-03T11:35:51.703-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/seed/settings/wcm/templates/top-navigation-page"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Notifications"
+        jcr:title="Forms"
         sling:resourceType="seed/components/structure/top-navigation-page/page">
         <root
             jcr:primaryType="nt:unstructured"
@@ -20,4 +20,6 @@
                 sling:resourceType="wcm/foundation/components/responsivegrid"/>
         </root>
     </jcr:content>
+    <Basic_Form/>
+    <Advanced_Form/>
 </jcr:root>

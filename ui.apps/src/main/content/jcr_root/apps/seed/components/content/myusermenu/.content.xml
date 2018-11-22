@@ -3,4 +3,4 @@
     jcr:description="User menu component"
     jcr:primaryType="cq:Component"
     jcr:title="User Menu Custom"
-    componentGroup="seed.Common"/>
+    componentGroup="seed.common"/>

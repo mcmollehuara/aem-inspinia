@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-11-21T11:31:26.679-05:00"
+        cq:lastModified="{Date}2018-11-21T17:29:52.965-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/seed/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
@@ -18,15 +18,13 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid">
-                <text
-                    jcr:created="{Date}2018-11-21T11:30:37.208-05:00"
+                <landing_page
+                    jcr:created="{Date}2018-11-21T17:29:41.333-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-11-21T11:31:26.678-05:00"
+                    jcr:lastModified="{Date}2018-11-21T17:29:41.333-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="seed/components/content/text"
-                    text="&lt;p>&lt;a href=&quot;/content/we-retail.html&quot;>Miguel COndori&lt;/a>&lt;/p>&#xa;"
-                    textIsRich="true"/>
+                    sling:resourceType="seed/components/content/landing/landing-page"/>
             </responsivegrid>
         </root>
     </jcr:content>

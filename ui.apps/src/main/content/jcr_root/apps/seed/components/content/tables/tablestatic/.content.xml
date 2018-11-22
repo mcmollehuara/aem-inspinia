@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Table Static"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.Common"/>
+    componentGroup="seed.common"/>
