@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <graphs/>
     <uix-2/>
-    <froms/>
+    <forms/>
     <uix/>
     <tables/>
     <uix-4/>
@@ -11,7 +11,7 @@
     <metrics/>
     <uiElements/>
     <uix-3/>
-    <home/>
+    
     <jcr:content
         cq:allowedTemplates="[/conf/seed/settings/wcm/templates/.*]"
         cq:designPath="/etc/clientlibs/seed"
@@ -27,7 +27,7 @@
             jcr:primaryType="nt:unstructured"
             imageRotate="0"/>
     </jcr:content>
-    <persona-1/>
+    
     <landing-page/>
-    <page-test/>
+    
 </jcr:root>
