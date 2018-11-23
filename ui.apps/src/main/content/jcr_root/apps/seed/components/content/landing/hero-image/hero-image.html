@@ -1,4 +1,4 @@
-<!-- <sly data-sly-use.heroImage="hero-image.js">
+<sly data-sly-use.heroImage="hero-image.js">
     <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#inSlider" data-slide-to="0" class="active"></li>
@@ -12,66 +12,16 @@
                         <p>${properties.title || currentPage.title}</p>
                         <p>
                             <a class="btn btn-lg btn-primary" href="#" role="button">${properties.buttonLabel}</a>
-                            <a class="caption-link" href="#" role="button">Inspinia Theme</a>
+                            <a class="caption-link" href="#" role="button">Encuentra el seguro ideal
+</a>
                         </p>
                     </div>
                     <div class="carousel-image wow zoomIn">
-                        <img src="/content/dam/seed/landing/laptop.png" alt="laptop" />
+                        <img src="${heroImage.image.srcSecondary @context='styleString'}" alt="laptop" />
                     </div>
                 </div>
                 
-                <div class="header-back one ${heroImage.classList}" style="background: url(${heroImage.image.src @context='styleString'})  50% 0 no-repeat"></div>
-
-            </div>
-            <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                    <h1>We create meaningful <br /> interfaces that inspire.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                </div>
-            </div>
-            
-            <div class="header-back two"></div>
-        </div>
-        </div>
-        <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</sly> -->
-
-<sly data-sly-use.heroImage="hero-image.js">
-    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#inSlider" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>We craft<br />
-                            brands, web apps,<br />
-                            and user interfaces<br />
-                            we are IN+ studio</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing.</p>
-                        <p>
-                            <a class="btn btn-lg btn-primary" href="#" role="button">READ MORE</a>
-                            <a class="caption-link" href="#" role="button">Inspinia Theme</a>
-                        </p>
-                    </div>
-                    <div class="carousel-image wow zoomIn">
-                        <img src="/content/dam/seed/landing/laptop.png" alt="laptop" />
-                    </div>
-                </div>
-                
-                <div class="header-back one" style="background: url(/content/dam/seed/landing/header_one.jpg)  50% 0 no-repeat"></div>
+                <div class="header-back one" style="background: url(${heroImage.image.src @context='styleString'})  50% 0 no-repeat ;    background-size: cover;"></div>
 
             </div>
             <div class="item">
