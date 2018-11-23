@@ -2,13 +2,8 @@
 
 var global = this;
 use(function () {
-    var _type = properties.get('type', 'h1');
-    var _isBig = properties.get('isBig', false);
-    var _typeValue = '';
-
-    if (_isBig == true) {
-        _typeValue = _typeValue + ' big';
-    }
+    var _type = properties.get('type', 'h1');    
+    var _typeValue = '';   
 
     //TODO: Factorization
     var textColor = '';
@@ -58,6 +53,6 @@ use(function () {
         settings: settings,
         type: _type,
         typeValue: _typeValue,
-        isBig: _isBig
+        request: request.getAttribute('foo')
     };
 });

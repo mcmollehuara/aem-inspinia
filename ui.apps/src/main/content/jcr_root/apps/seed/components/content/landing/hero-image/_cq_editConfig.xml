@@ -5,9 +5,9 @@
 	jcr:primaryType="cq:EditConfig" afteredit="REFRESH_SELF">
 	<cq:dropTargets jcr:primaryType="nt:unstructured">
 		<image jcr:primaryType="cq:DropTargetConfig" accept="[image/.*]"
-			groups="[media]" propertyName="./primary/fileReference" />
+			groups="[media]" propertyName="./primaryFileReference" />
 		<imageSecondary jcr:primaryType="cq:DropTargetConfig"
 			accept="[image/.*]" groups="[media]"
-			propertyName="./secondary/fileReference" />
+			propertyName="./secondaryFileReference" />
 	</cq:dropTargets>
 </jcr:root>

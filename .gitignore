@@ -1,3 +1,5 @@
+# Ignore temporal files
+.tmp
 # Ignore VLT files
 .vlt
 .vlt-sync.log

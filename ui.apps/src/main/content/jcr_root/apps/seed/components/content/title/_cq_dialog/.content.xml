@@ -36,14 +36,7 @@
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
                                 fieldLabel="Subtitle"
-                                name="./subtitle"/>
-                            <isBig
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
-                                fieldDescription="Choose it for big titles"
-                                name="./isBig"
-                                text="Is Big"
-                                value="true"/>
+                                name="./subtitle"/>                            
                             <type
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/foundation/form/select"

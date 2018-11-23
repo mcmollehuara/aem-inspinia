@@ -1,9 +1,11 @@
+
 <sly data-sly-use.title="title.js">
-		<div data-sly-test="${wcmmode.edit && properties.title==''}">Title</div>
-<h1 data-sly-test="${title.type == 'h1'}"
+<sly data-sly-use.titleJ="${'micom.seed.core.soat.components.content.title.Title'}">
+<h3 data-sly-test="${wcmmode.edit && properties.title==''}">Add Title</h3>
+<sly data-sly-test="${title.type == 'h1'}"
 	class="${title.settings} ${title.typeValue}">
 	${properties.title || 'Title'} <small>${properties.subtitle}</small>
-</h1>
+</sly>
 <h2 data-sly-test="${title.type == 'h2'}"
 	class="${title.settings} ${title.typeValue}">
 	${properties.title || 'Title'} <small>${properties.subtitle} </small>
@@ -24,4 +26,5 @@
 	class="${title.settings} ${title.typeValue}">
 	${properties.title || 'Title'} <small>${properties.subtitle} </small>
 </h6>
+</sly>
 </sly>
