@@ -2,3 +2,5 @@
 ## Landing page header 
 ## Active menu option
 ## Hero banner width
+## Move clientlibs to app
+## Create vendors client libs
