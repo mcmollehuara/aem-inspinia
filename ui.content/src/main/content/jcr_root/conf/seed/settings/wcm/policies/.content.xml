@@ -14,7 +14,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Uix Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:seed.Dashboard,/libs/wcm/foundation/components/responsivegrid]"
+                        components="[group:seed,group:seed.Common,group:seed.Elements,group:seed.Forms,group:seed.Containers,group:seed.Dashboard,/libs/wcm/foundation/components/responsivegrid]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -69,7 +69,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Uix Structure"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:seed.Dashboard,/libs/wcm/foundation/components/responsivegrid]"
+                        components="[group:seed,group:seed.Common,group:seed.Elements,group:seed.Forms,group:seed.Containers,group:seed.Dashboard,/libs/wcm/foundation/components/responsivegrid]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">

@@ -41,42 +41,49 @@
                 <div class="navy-line"></div>
                 <div data-sly-resource="${'resource-title' @ resourceType='seed/components/content/title'}">
                 </div>
-                <!-- <h1>Over 40+ unique view<br /> <span class="navy"> with many custom components</span> </h1> -->
                 <div data-sly-resource="${'resource-text' @ resourceType='seed/components/content/text'}">
                 </div>
-                <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. </p> -->
             </div>
         </div>
         <div class="row">
             <div class="col-md-3 text-center wow fadeInLeft">
                 <div>
-                    <i class="fa fa-mobile features-icon"></i>
+                    <!-- <i class="fa fa-mobile features-icon"></i> -->
+                    <div data-sly-resource="${'feature-icon-mobile' @ resourceType='seed/components/content/ui-elements/icon'}">
+                    </div>
+
                     <h2>Full responsive</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Morbi leo risus.</p>
                 </div>
                 <div class="m-t-lg">
-                    <i class="fa fa-bar-chart features-icon"></i>
+                    <!-- <i class="fa fa-bar-chart features-icon"></i> -->
+                    <div data-sly-resource="${'feature-icon-library' @ resourceType='seed/components/content/ui-elements/icon'}">
+                    </div>
                     <h2>6 Charts Library</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Morbi leo risus.</p>
                 </div>
             </div>
             <div class="col-md-6 text-center  wow zoomIn">
-                <!-- <img src="${feature.image.src}" alt="dashboard" class="img-responsive"> -->
-                <div data-sly-resource="${'feature-image' @ resourceType='seed/components/content/image', cssClassName='img-responsive'}">
+
+                <div data-sly-resource="${'feature-image' @ resourceType='seed/components/content/image'}">
 
                 </div>
             </div>
             <div class="col-md-3 text-center wow fadeInRight">
                 <div>
-                    <i class="fa fa-envelope features-icon"></i>
+                    <div data-sly-resource="${'feature-icon-mail' @ resourceType='seed/components/content/ui-elements/icon'}">
+                    </div>
+                    
                     <h2>Mail pages</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Morbi leo risus.</p>
                 </div>
                 <div class="m-t-lg">
-                    <i class="fa fa-google features-icon"></i>
+                    <!-- <i class="fa fa-google features-icon"></i> -->
+                    <div data-sly-resource="${'feature-icon-google' @ resourceType='seed/components/content/ui-elements/icon'}">
+                    </div>
                     <h2>AngularJS version</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                         ultricies vehicula ut id elit. Morbi leo risus.</p>

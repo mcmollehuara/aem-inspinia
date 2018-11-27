@@ -19,3 +19,18 @@
 ## Landing page creation 
 * Composition
 * Sly resource integration
+
+
+# 12:31 p.m. 27/11/2018
+## Button component
+* Add fontawesome select and search support
+
+## Icon component
+* Component creation
+* Fontawesome integrated
+
+## Dialog properties reusability
+
+# 01:30 p.m. 27/11/2018
+
+## Template creation

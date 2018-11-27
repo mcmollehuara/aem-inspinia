@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2018-11-26T13:55:21.016-05:00"
+        cq:lastModified="{Date}2018-11-27T15:38:55.030-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/seed/settings/wcm/templates/landing-page"
         jcr:primaryType="cq:PageContent"
@@ -21,12 +21,23 @@
                 <hero_image
                     jcr:created="{Date}2018-11-22T09:22:56.525-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2018-11-26T13:55:21.016-05:00"
+                    jcr:lastModified="{Date}2018-11-27T15:23:10.990-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="seed/components/content/landing/hero-image"
+                    buttonLabel="READ MORE"
+                    buttonLinkTo="/content/we-retail/us/en/experience"
+                    heading="CRAS JUSTO ODIO, DAPIBUS AC FACILISIS IN, EGESTAS EGET QUAM."
                     primaryFileReference="/content/dam/seed/landing/header_two.jpg"
-                    secondaryFileReference="/content/dam/seed/landing/laptop.png"/>
+                    secondaryFileReference="/content/dam/seed/landing/laptop.png">
+                    <main-title
+                        jcr:lastModified="{Date}2018-11-27T14:59:12.146-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/title"
+                        text="&lt;h1>We craft&lt;br>&#xd;&#xa;brands, web apps,&lt;br>&#xd;&#xa;and user interfaces&lt;br>&#xd;&#xa;we are IN+ studio&lt;/h1>&#xd;&#xa;"
+                        textIsRich="true"/>
+                </hero_image>
                 <features
                     jcr:created="{Date}2018-11-22T09:23:03.379-05:00"
                     jcr:createdBy="admin"
@@ -35,10 +46,12 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="seed/components/content/landing/features">
                     <title
-                        jcr:lastModified="{Date}2018-11-26T13:20:53.596-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:34:26.130-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/title"
+                        text="&lt;h3>FULL RESPONSIVE&lt;/h3>&#xd;&#xa;"
+                        textIsRich="true"
                         title="FULL RESPONSIVE"
                         type="h2"/>
                     <text
@@ -49,21 +62,22 @@
                         text="&lt;p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <button-link
-                        jcr:lastModified="{Date}2018-11-26T13:50:15.749-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:38:34.415-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/ui-elements/button"
-                        color="btn-primary"
-                        icon="fa-chevron-right"
+                        icon="fa fa-angle-right"
                         label="Details"
                         size="btn-sm"
                         textColor="text-navy"
                         type="btn-link"/>
                     <title-1
-                        jcr:lastModified="{Date}2018-11-26T13:49:17.884-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:34:36.732-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/title"
+                        text="&lt;h3>LESS/SASS FILES&lt;/h3>&#xd;&#xa;"
+                        textIsRich="true"
                         title="LESS/SASS FILES"
                         type="h3"/>
                     <text-1
@@ -74,20 +88,22 @@
                         text="&lt;p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <button-link-1
-                        jcr:lastModified="{Date}2018-11-26T13:50:50.265-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:38:41.728-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/ui-elements/button"
-                        icon="fa-chevron-right"
+                        icon="fa fa-angle-right"
                         label="Details"
                         size="btn-sm"
                         textColor="text-navy"
                         type="btn-link"/>
                     <title-2
-                        jcr:lastModified="{Date}2018-11-26T13:51:29.311-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:34:52.525-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/title"
+                        text="&lt;h3>6 CHARTS LIBRARY&lt;/h3>&#xd;&#xa;"
+                        textIsRich="true"
                         title="6 CHARTS LIBRARY"
                         type="h3"/>
                     <text-2
@@ -98,20 +114,22 @@
                         text="&lt;p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <button-link-2
-                        jcr:lastModified="{Date}2018-11-26T13:52:23.099-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:38:48.189-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/ui-elements/button"
-                        icon="fa-chevron-right"
+                        icon="fa fa-angle-right"
                         label="Detail"
                         size="btn-sm"
                         textColor="text-navy"
                         type="btn-link"/>
                     <title-3
-                        jcr:lastModified="{Date}2018-11-26T13:52:37.437-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:35:05.462-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/title"
+                        text="&lt;h3>ADVANCED FORMS&lt;/h3>&#xd;&#xa;"
+                        textIsRich="true"
                         title="ADVANCED FORMS"
                         type="h3"/>
                     <text-3
@@ -122,15 +140,78 @@
                         text="&lt;p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.&lt;/p>&#xa;"
                         textIsRich="true"/>
                     <button-link-3
-                        jcr:lastModified="{Date}2018-11-26T13:53:31.469-05:00"
+                        jcr:lastModified="{Date}2018-11-27T15:38:55.016-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="seed/components/content/ui-elements/button"
-                        icon="fa-chevron-right"
+                        icon="fa fa-angle-right"
                         label="Details"
                         size="btn-sm"
                         textColor="text-navy"
                         type="btn-link"/>
+                    <feature-image
+                        jcr:lastModified="{Date}2018-11-27T13:41:40.546-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/image"
+                        fileReference="/content/dam/seed/landing/perspective.png"
+                        height="0"
+                        isResponsive="true"
+                        width="0"/>
+                    <resource-title
+                        jcr:lastModified="{Date}2018-11-27T13:42:25.147-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/title"
+                        text="&lt;h1>Over 40+ unique view&lt;br>&#xd;&#xa;&lt;span class=&quot;navy&quot;> with many custom components&lt;/span>&lt;/h1>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <resource-text
+                        jcr:lastModified="{Date}2018-11-27T13:42:45.926-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/text"
+                        text="&lt;p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <feature-icon-responsive
+                        jcr:lastModified="{Date}2018-11-27T14:57:04.615-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/ui-elements/icon"
+                        color="text-navy"
+                        icon="fa fa-envelope"
+                        size="3x"/>
+                    <feature-icon-mobile
+                        jcr:lastModified="{Date}2018-11-27T15:29:22.985-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/ui-elements/icon"
+                        color="text-navy"
+                        icon="fa fa-mobile-phone"
+                        size="5x"/>
+                    <feature-icon-mail
+                        jcr:lastModified="{Date}2018-11-27T15:16:14.986-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/ui-elements/icon"
+                        color="text-navy"
+                        icon="fa fa-envelope"
+                        size="3x"/>
+                    <feature-icon-google
+                        jcr:lastModified="{Date}2018-11-27T15:15:59.045-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/ui-elements/icon"
+                        color="text-navy"
+                        icon="fa fa-google"
+                        size="3x"/>
+                    <feature-icon-library
+                        jcr:lastModified="{Date}2018-11-27T15:16:34.827-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="seed/components/content/ui-elements/icon"
+                        color="text-navy"
+                        icon="fa fa-bar-chart"
+                        size="3x"/>
                 </features>
                 <team
                     jcr:created="{Date}2018-11-22T09:24:29.220-05:00"
