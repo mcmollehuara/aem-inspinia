@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Data Picker Range"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.Forms"/>
+    componentGroup="seed.forms"/>

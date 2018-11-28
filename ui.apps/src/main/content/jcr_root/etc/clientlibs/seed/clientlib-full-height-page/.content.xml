@@ -4,4 +4,4 @@
     allowProxy="{Boolean}true"
     dependencies="[seed.core]"
     categories="[seed.full-height-page]"
-    embed="[]"/>
+    embed="[seed.structure.full-height-page]"/>

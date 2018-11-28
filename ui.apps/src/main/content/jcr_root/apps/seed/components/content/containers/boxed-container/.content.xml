@@ -4,4 +4,4 @@
     jcr:title="Boxed Container"
     sling:resourceSuperType="wcm/foundation/components/parbase"
     allowedParents="*/parsys"
-    componentGroup="seed.Containers"/>
+    componentGroup="seed.containers"/>

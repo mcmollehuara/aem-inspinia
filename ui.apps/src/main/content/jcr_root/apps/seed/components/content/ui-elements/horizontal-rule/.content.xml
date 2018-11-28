@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Horizontal Rule"
     sling:resourceSuperType="apps/seed/components/content/containers/boxes-lite"
-    componentGroup="seed.Elements"/>
+    componentGroup="seed.elements"/>

@@ -34,3 +34,7 @@
 # 01:30 p.m. 27/11/2018
 
 ## Template creation
+
+# 12:09 p.m. 28/11/2018
+## Client libs creation to support 5 templates
+## Page structure components updated

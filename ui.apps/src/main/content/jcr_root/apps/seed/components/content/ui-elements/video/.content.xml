@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Video"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.Elements"/>
+    componentGroup="seed.elements"/>

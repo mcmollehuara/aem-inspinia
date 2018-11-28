@@ -3,4 +3,4 @@
     jcr:primaryType="cq:ClientLibraryFolder"
     allowProxy="{Boolean}true"
     categories="[seed.core]"
-    embed="[cq.underscore,cq.handlebars,seed.site,seed.structure,seed.components.base]"/>
+    embed="[cq.underscore,cq.handlebars,seed.structure,seed.components.base]"/>
