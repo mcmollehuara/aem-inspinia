@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
     xmlns:cq="http://www.day.com/jcr/cq/1.0" 
     xmlns:jcr="http://www.jcp.org/jcr/1.0" 
-    xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="nt:unstructured" jcr:title="Title" sling:resourceType="cq/gui/components/authoring/dialog" helpPath="en/cq/current/wcm/default_components.html#Text">
+    xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="nt:unstructured" jcr:title="Button" sling:resourceType="cq/gui/components/authoring/dialog" helpPath="en/cq/current/wcm/default_components.html#Text">
     <content jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/container">
         <layout jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/layouts/tabs" margin="{Boolean}false" type="nav"/>
         <items jcr:primaryType="nt:unstructured">
@@ -23,6 +23,15 @@
                                     <block jcr:primaryType="nt:unstructured" text="Block" value="btn-block"/>
                                 </items>
                             </type>
+                            <autocomplete jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/form/autocomplete" fieldLabel="Autcomplete" name="./autocomplete" displayProperty="jcr:content/jcr:title" predicates="[type=cq:Page,path=/content/seed,property=jcr:content/sling:resourceType,property.value=wcm/foundation/components/responsivegrid]">
+                                <datasource jcr:primaryType="nt:unstructured" sling:resourceType="acs-commons/granite/ui/components/form/queryautocomplete/datasource" />
+                                <options jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/form/autocomplete/list" />
+                            </autocomplete>
+                            <icon xmlns:jcr="http://www.jcp.org/jcr/1.0" 
+                                xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
+                                xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="nt:unstructured" fieldLabel="Icon" name="./icon" sling:resourceType="acs-commons/components/authoring/graphiciconselect">
+                                <datasource jcr:primaryType="nt:unstructured" path="/etc/acs-commons/lists/font-awesome-icons" sling:resourceType="acs-commons/components/utilities/genericlist/datasource"/>
+                            </icon>
                             <size jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/form/select" fieldLabel="Size" name="./size">
                                 <items jcr:primaryType="nt:unstructured">
                                     <default jcr:primaryType="nt:unstructured" text="Default" value=" "/>
@@ -43,11 +52,6 @@
                                     <white jcr:primaryType="nt:unstructured" text="White" value="btn-white"/>
                                 </items>
                             </color>
-                            <icon xmlns:jcr="http://www.jcp.org/jcr/1.0" 
-                                xmlns:sling="http://sling.apache.org/jcr/sling/1.0" 
-                                xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:primaryType="nt:unstructured" fieldLabel="Icon" name="./icon" sling:resourceType="acs-commons/components/authoring/graphiciconselect">
-                                <datasource jcr:primaryType="nt:unstructured" path="/etc/acs-commons/lists/font-awesome-icons" sling:resourceType="acs-commons/components/utilities/genericlist/datasource"/>
-                            </icon>
                             <linkTo jcr:primaryType="nt:unstructured" sling:resourceType="granite/ui/components/foundation/form/pathbrowser" fieldLabel="Link to" name="./linkTo" rootPath="/content" suffix=".html"/>
                         </items>
                     </column>
