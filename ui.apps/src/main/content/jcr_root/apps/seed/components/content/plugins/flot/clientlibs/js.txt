@@ -1,0 +1,6 @@
+js/plugins/flot/jquery.flot.js
+js/plugins/flot/jquery.flot.tooltip.min.js
+js/plugins/flot/jquery.flot.spline.js
+js/plugins/flot/jquery.flot.resize.js
+js/plugins/flot/jquery.flot.pie.js
+js/_flot-demo.js

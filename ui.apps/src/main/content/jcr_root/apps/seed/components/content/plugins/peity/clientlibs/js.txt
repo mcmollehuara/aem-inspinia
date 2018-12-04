@@ -1,1 +1,2 @@
-js/flot-chart.js
+js/jquery.peity.min.js
+js/_peity-demo.js

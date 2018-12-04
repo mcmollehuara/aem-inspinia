@@ -4,4 +4,4 @@
     allowProxy="{Boolean}true"
     dependencies="[seed.core]"
     categories="[seed.left-navigation-page]"
-    embed="[seed.structure.left-navigation-page]"/>
+    embed="[seed.structure.left-navigation-page, seed.components.plugins.toaster]"/>
