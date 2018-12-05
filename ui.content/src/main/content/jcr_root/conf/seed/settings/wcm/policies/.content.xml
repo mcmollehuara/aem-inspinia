@@ -45,7 +45,7 @@
 							</assetToComponentMapping>
 						</cq:authoring>
 					</seed-landing-page>
-					<seed-left-navigation-page jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Seed Langind Page" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed.common,group:seed.containers,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
+					<seed-left-navigation-page jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Seed Langind Page" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed.common,group:seed.containers,group:seed.plugins,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
 						<cq:authoring jcr:primaryType="nt:unstructured">
 							<assetToComponentMapping jcr:primaryType="nt:unstructured">
 								<image jcr:primaryType="nt:unstructured" assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="seed/components/content/image" type="Images" />

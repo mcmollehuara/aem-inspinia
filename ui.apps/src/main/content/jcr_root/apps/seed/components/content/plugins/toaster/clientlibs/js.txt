@@ -1,2 +1,2 @@
-js/toaster.min.js
-js/toaster.js
+js/toastr.min.js
+js/toastr.js

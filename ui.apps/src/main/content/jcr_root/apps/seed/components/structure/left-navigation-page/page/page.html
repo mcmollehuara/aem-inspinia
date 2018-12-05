@@ -9,12 +9,13 @@
 <body>
     <div id="wrapper">
         <sly data-sly-include="partials/navbar-static.html" />
-        <div id="page-wrapper" class="gray-bg">
-            <sly data-sly-include="partials/body.html" />
-            <sly data-sly-include="partials/footlibs.html" />
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+            <sly data-sly-include="partials/body.html" />            
         </div>
+        <sly data-sly-include="partials/small-chat-box.html" />
+        <sly data-sly-include="partials/small-chat.html" />
         <sly data-sly-include="partials/right-sidebar.html" />
     </div>
 </body>
-
+<sly data-sly-include="partials/footlibs.html" />
 </html>
