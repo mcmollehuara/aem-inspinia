@@ -1,2 +1,2 @@
 js/Chart.min.js
-js/_chart-demo.min.js
+js/_chart-demo.js
