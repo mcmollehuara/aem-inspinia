@@ -1,3 +1,5 @@
 {
-    "aemsync.host": "172.26.41.50"
+    "aemsync.host": "172.26.41.50",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "aemsync.port": 6754
 }

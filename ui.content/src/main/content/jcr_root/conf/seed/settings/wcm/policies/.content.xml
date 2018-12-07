@@ -9,7 +9,7 @@
 		<foundation jcr:primaryType="nt:unstructured">
 			<components jcr:primaryType="nt:unstructured">
 				<responsivegrid jcr:primaryType="nt:unstructured">
-					<seed-default jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Uix Default" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed,group:seed.common,group:seed.elements,group:seed.forms,group:seed.containers,group:seed.dashboard,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
+					<seed-default jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Uix Default" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed,group:seed.common,group:seed.elements,group:seed.forms,group:seed.containers,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
 						<cq:authoring jcr:primaryType="nt:unstructured">
 							<assetToComponentMapping jcr:primaryType="nt:unstructured">
 								<image jcr:primaryType="nt:unstructured" assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="seed/components/content/image" type="Images" />
@@ -21,7 +21,7 @@
 							</assetToComponentMapping>
 						</cq:authoring>
 					</seed-default>
-					<seed-structure jcr:description="Policy for templates to allow structure components" jcr:lastModified="{Date}2018-02-16T21:38:49.301+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Uix Structure" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed,group:seed.common,group:seed.elements,group:seed.forms,group:seed.containers,group:seed.dashboard,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
+					<seed-structure jcr:description="Policy for templates to allow structure components" jcr:lastModified="{Date}2018-02-16T21:38:49.301+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Uix Structure" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed,group:seed.common,group:seed.elements,group:seed.forms,group:seed.containers,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
 						<cq:authoring jcr:primaryType="nt:unstructured">
 							<assetToComponentMapping jcr:primaryType="nt:unstructured">
 								<image jcr:primaryType="nt:unstructured" assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="seed/components/content/image" type="Images" />
@@ -45,7 +45,7 @@
 							</assetToComponentMapping>
 						</cq:authoring>
 					</seed-landing-page>
-					<seed-left-navigation-page jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Seed Langind Page" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed.common,group:seed.containers,group:seed.plugins,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
+					<seed-left-navigation-page jcr:description="Policy for editable layout containers" jcr:lastModified="{Date}2018-02-16T21:39:02.041+01:00" jcr:lastModifiedBy="admin" jcr:primaryType="nt:unstructured" jcr:title="Seed Langind Page" sling:resourceType="wcm/core/components/policy/policy" components="[group:seed.common,group:seed.containers,group:seed.plugin,group:seed.module,/libs/wcm/foundation/components/responsivegrid]" policyResourceType="wcm/foundation/components/responsivegrid">
 						<cq:authoring jcr:primaryType="nt:unstructured">
 							<assetToComponentMapping jcr:primaryType="nt:unstructured">
 								<image jcr:primaryType="nt:unstructured" assetGroup="media" assetMimetype="image/*" droptarget="image" resourceType="seed/components/content/image" type="Images" />

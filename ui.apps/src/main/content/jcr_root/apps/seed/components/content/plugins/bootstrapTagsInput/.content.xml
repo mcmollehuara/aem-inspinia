@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Bootstrap Tags Input"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.plugins"/>
+    componentGroup="seed.plugin"/>

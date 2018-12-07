@@ -1,0 +1,27 @@
+<sly data-sly-use.cotizador="cotizador.js">
+	<div class="ibox float-e-margins">
+		<div class="ibox-title">
+			<h5 data-emptytext="Title">Cotizador</h5>
+		</div>
+		<div class="ibox-content">
+			<div class="form-group">
+				<div class="col-l2">
+					<select id="tipoVehiculo" name="tipovehiculo" onchange="getMarca()" class="form-control">
+						<option value="">Tipo vehículo</option>
+					</select>
+
+					<select id="tipoMarca" name="marca" onchange="getModelo()"  class="form-control">
+						<option value="">Marca</option>
+					</select>
+					<select id="tipoModelo" name="modelo" onchange="onChangeModelo()"  class="form-control">
+						<option value="">Modelo</option>
+					</select>
+					<input type="text" name="anio" id="ano__hero" value=""  class="form-control">
+					<input type="checkbox" name="gas" id="gas__hero" value="1" class="form-control">
+					<input type="checkbox" name="provincia" id="provincia__hero" value="1" class="form-control">
+					<button type="button" class="btn btn-block btn-outline btn-primary">Cotizar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</sly>

@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Time Line"
     sling:resourceSuperType="wcm/foundation/components/parbase"
-    componentGroup="seed.plugins"/>
+    componentGroup="seed.plugin"/>

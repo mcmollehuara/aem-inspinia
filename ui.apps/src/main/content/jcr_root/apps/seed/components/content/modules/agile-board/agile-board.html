@@ -1,0 +1,36 @@
+<div class="ibox">
+
+	<div class="ibox-content">
+		<h3>${properties.title}</h3>
+		<p class="small">
+			<i class="fa fa-hand-o-up"></i>${properties.subtitle}
+		</p>
+
+		<div class="input-group">
+			<input type="text" placeholder="${properties.placeholder}"
+				class="input input-sm form-control"> <span
+				class="input-group-btn">
+				<button type="button" class="btn btn-sm btn-white">
+					<i class="fa fa-plus"></i>${properties.titlebutton}
+				</button>
+			</span>
+		</div>
+
+		<div
+			data-sly-use.multiItems="micom.seed.core.soat.components.ItemComponentUse">
+		</div>
+
+		<ul class="sortable-list connectList agile-list ui-sortable" id="todo">
+			<li class="success-element ui-sortable-handle"
+				data-sly-list.head="${multiItems.items}"
+				class="success-element ui-sortable-handle" id="task2">
+				${head.descriptionItem}
+				<div class="agile-detail">
+					<a href="#" class="pull-right btn btn-xs btn-white">${head.titleItem}</a>
+					<i class="fa fa-clock-o"></i> ${head.dateItem}
+				</div>
+			</li>
+		</ul>
+	</div>
+
+</div>

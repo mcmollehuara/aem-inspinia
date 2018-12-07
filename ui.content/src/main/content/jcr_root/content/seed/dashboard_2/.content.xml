@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-12-07T15:24:10.008-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/seed/settings/wcm/templates/left-navigation-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="dashboard_2"
+        sling:resourceType="seed/components/structure/left-navigation-page/page">
+        <root 
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-10-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <total_panel_copy
+                    jcr:created="{Date}2018-12-07T15:21:54.866-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-07T15:22:21.335-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/modules/total-panel"
+                    amount="4000"
+                    colour="success"
+                    period="Montly"
+                    title="Income">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                    </cq:responsive>
+                </total_panel_copy>
+                <total_panel_copy_1305168647
+                    jcr:created="{Date}2018-12-07T15:21:54.866-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-07T15:23:39.568-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/modules/total-panel"
+                    amount="5000"
+                    colour="info"
+                    period="Montly"
+                    title="Orders">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                    </cq:responsive>
+                </total_panel_copy_1305168647>
+                <total_panel_copy_1636771329
+                    jcr:created="{Date}2018-12-07T15:21:54.866-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-07T15:23:33.480-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/modules/total-panel"
+                    amount="5754"
+                    colour="primary"
+                    period="Montly"
+                    title="Visits">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                    </cq:responsive>
+                </total_panel_copy_1636771329>
+                <total_panel
+                    jcr:created="{Date}2018-12-07T15:21:54.866-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-07T15:24:10.000-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="seed/components/content/modules/total-panel"
+                    amount="5633"
+                    colour="danger"
+                    period="Yearly"
+                    title="User Activity">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            width="3"/>
+                    </cq:responsive>
+                </total_panel>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
